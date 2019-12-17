@@ -39,4 +39,4 @@ Create a CloudBuild CI pipeline on a config directory
 Create a CloudBuild CI pipeline on an unstructured directory
 
 [1]: https://cloud.google.com/anthos-config-management/
-[2]: https://cloud.google.com/anthos-config-management/docs/overview
+[2]: https://cloud.google.com/anthos-config-management/docs

@@ -7,6 +7,6 @@ spec:
   clusterName: taiwan
   git:
     syncRepo: git@github.com:<GITHUB-USERNAME>/csp-config-management.git
-    syncBranch: 1.0.0
+    syncBranch: master
     secretType: ssh
     policyDir: "locality-specific-policy/config-root"
