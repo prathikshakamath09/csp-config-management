@@ -1,0 +1,7 @@
+# creates namespace named "hello"
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ns1
+  labels:
+    geo: chennai
