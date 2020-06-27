@@ -1,16 +1,11 @@
-apiVersion: policy/v1beta1
-kind: PodSecurityPolicy
+aapiVersion: constraints.gatekeeper.sh/v1beta1
+kind: K8sPSPPrivilegedContainer
 metadata:
-  name: psp
+  name: psp-privileged-container
+  annotations:
+    configmanagement.gke.io/cluster-selector: select-policy-controller
 spec:
-  privileged: false
-  seLinux:
-    rule: RunAsAny
-  supplementalGroups:
-    rule: RunAsAny
-  runAsUser:
-    rule: RunAsAny
-  fsGroup:
-    rule: RunAsAny
-  volumes:
-  - '*'
+  match:
+    kinds:
+      - apiGroups: [""]
+        kinds: ["Pod"]
