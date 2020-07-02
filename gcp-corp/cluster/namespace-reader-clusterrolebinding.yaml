@@ -4,7 +4,7 @@ metadata:
   name: namespace-readers
 subjects:
 - kind: User
-  name: cheryl@foo-corp.com
+  name: cheryl@gcp-corp.com
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole

@@ -4,7 +4,7 @@ metadata:
   name: job-creators
 subjects:
 - kind: User
-  name: sam@foo-corp.com
+  name: sam@gcp-corp.com
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role

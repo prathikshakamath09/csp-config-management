@@ -1,5 +1,5 @@
 kind: FulfillmentCenter
-apiVersion: foo-corp.com/v1
+apiVersion: gcp-corp.com/v1
 metadata:
   name: staging
 spec:

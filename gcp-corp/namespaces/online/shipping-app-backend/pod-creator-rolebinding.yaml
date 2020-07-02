@@ -4,7 +4,7 @@ metadata:
   name: pod-creators
 subjects:
 - kind: User
-  name: bob@foo-corp.com
+  name: bob@gcp-corp.com
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
