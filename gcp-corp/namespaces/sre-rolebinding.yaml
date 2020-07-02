@@ -6,7 +6,7 @@ metadata:
     configmanagement.gke.io/namespace-selector: sre-supported
 subjects:
 - kind: Group
-  name: sre@gcp-corp.com
+  name: sre@foo-corp.com
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
