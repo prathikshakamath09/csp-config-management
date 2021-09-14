@@ -1,0 +1,12 @@
+# apply-spec.yaml
+
+applySpecVersion: 1
+spec:
+  configSync:
+    # Set to true to install and enable Config Sync
+    enabled: true
+    sourceFormat: unstructured
+    syncRepo: https://github.com/smakam/csp-config-management
+    syncBranch: 1.0.0
+    secretType: none
+    policyDir: gcp-unstruct/manifests
