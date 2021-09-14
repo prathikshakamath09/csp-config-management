@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   name: configmgmt-test
   annotations:
-    configsync.gke.io/cluster-name-selector: configmgmtdemo
+    configsync.gke.io/cluster-name-selector: democluster
